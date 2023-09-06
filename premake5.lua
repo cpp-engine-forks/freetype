@@ -13,6 +13,8 @@ project "freetype"
 		"include/freetype/config/*.h",
 		"include/freetype/internal/*.h",
 
+		-- "src/**.c",
+		-- "src/**.h",
 		"src/autofit/autofit.c",
 		"src/base/ftbase.c",
 		"src/base/ftbbox.c",
@@ -43,6 +45,7 @@ project "freetype"
 		"src/lzw/ftlzw.c",
 		"src/pcf/pcf.c",
 		"src/pfr/pfr.c",
+		"src/svg/ftsvg.c",
 		"src/psaux/psaux.c",
 		"src/pshinter/pshinter.c",
 		"src/psnames/psnames.c",
