@@ -6,6 +6,11 @@ subprojects/*
 !subprojects/*.wrap
 /tests/data/*
 
+# Binaries
+**/bin/
+bin-int/
+Intermediates/
+
 .vs/
 **.sln
 **.vcxproj
